@@ -1,0 +1,25 @@
+.portrait{
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+.me{
+    border-radius: 500px;
+    width: 50%;
+    height: 500px;
+    top: 500px;
+    right: 200px;
+}
+.rightArrow{
+    text-align: right;
+}
+.leftArrow{
+    text-align: left;
+}
+.leftArrow,
+.rightArrow {
+    display: inline;
+    top: 666px;
+    width: 25%;  
+}
