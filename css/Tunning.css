@@ -1,0 +1,90 @@
+.lines{
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 15px;
+    transition: 1s;
+    color: white;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgba(105, 105, 105, 0.75);
+}
+.lines:hover{
+    color: aqua;
+    transition: 1s;
+    cursor: pointer;
+}
+.description{
+    text-align: center;   
+}
+.titl{
+    cursor:pointer;
+    font-size: 45px;
+    text-shadow: 2px -2px 1px white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.me:hover{
+    box-shadow: 1px 1px 40px 10px white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform .3s ease-out;
+}
+.portrait{
+    text-align: center;
+}
+.me{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height:100px;
+    width: 100px;
+}
+
+/* Remember to put a class in this place , or an id. if you dont do that in the future all 'a' tags  are gonna be the same */
+a{
+    text-decoration: none;
+}
+.navDesigns{
+    background-color: rgba(105, 105, 105, 0.75);
+    text-align: center;
+}
+.navLi{
+    display: inline;
+    cursor: pointer;
+}
+.leftPanel{
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: rgba(105, 105, 105, 0.75);
+}
+/* I think this class should be renamed to something like aboutRiven , use english or spanish to name classes but do not combine them */
+.sobreRiven{
+    width: 35%;
+    border: 2px solid white;    
+    border-radius: 7px 65px 7px 65px;
+}
+/* Same as above */
+.sobreRiven:hover{
+    cursor: pointer;
+}
+.divRiven{
+    text-align: center;
+}
+.artTitle{
+    font-size: 30px;
+    color: black;
+    font-weight: underline;
+    text-align: center;
+
+}
+
+.asideDesigns{
+    /* add spaces after ' : ' to all properties */
+    color:white;
+    text-align: center;
+}
