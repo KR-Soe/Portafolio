@@ -1,0 +1,3 @@
+function changeTool(){
+    $('#description').toggle();
+}

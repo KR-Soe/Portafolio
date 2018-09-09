@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="css\menu\components\index.css">
         <link rel="stylesheet" href="css\home\components\index.css">
+        <script src="js/javascript.js"></script>
         <title>Portafolio</title>
         <meta charset="UTF-8">
     </head>
@@ -14,11 +15,11 @@
             <ul class="navMenu"><li>CCCCC</li></ul>
         </nav>
         <div class="portrait">
-            <div class="leftArrow"><span><img src="img/leftArrow.png"></span></div>
+            <div class="leftArrow"><span onclick="changeTool();"><img src="img/leftArrow.png"></span></div>
             <img class="me" src="img\portrait.jpg"/>
             <div class="rightArrow"><span><img src="img/rightArrow.png"></span></div>
         </div>
-        <div class="description">
+        <div id="description">
             <h1 class="subTitle">Sobre mi</h1>
             <p class="aboutMe">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit leo nulla, justo erat dui euismod lacinia mi nisl 
@@ -29,13 +30,20 @@
                     habitant turpis convallis phasellus lectus dui accumsan conubia rhoncus.   
             </p>
         </div>
+        <div id="history_div">
+            <h1 class="subTitle">HISTORIAL ACADEMICO</h1>
+            <p class="aboutMe">
+                   Del cielo cayo un papel para plasmar tu hermosa figura
+                   pero como no tenia pincel te pinte con la pichula.  
+            </p>
+        </div>
         <section>
             <article>
                 <header>
                     <h1 class="artTitle">AAAAAAA</h1>
                 </header>
             </article>
-        </section
+        </section>
     <footer>
         <p><small> Soe &copy; All rights reserved. </small> <address>Direccion: Santiago-Chile</address></p>
     </footer>
