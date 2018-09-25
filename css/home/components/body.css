@@ -2,9 +2,17 @@
     text-decoration: underline;
     text-align: center;
 }
-#description{
-
+.main_nav{
+    display: inline-flex;
+    border: 10px solid green;
 }
-.aboutMe{
+.about{
     font-size: 15px;
+}
+.main_inactive{
+    max-width: 0px;
+    overflow: hidden;
+}
+.main_content-inactive{
+    border: 2px solid brown;
 }

@@ -1,6 +1,5 @@
 .portrait{
     text-align: center;
-    display: inline-flex;
     width: 100%;
     align-items: center;
 }
@@ -10,13 +9,14 @@
 }
 .rightArrow{
     text-align: right;
+    right: 10px;
 }
 .leftArrow{
     text-align: left;
 }
 .leftArrow,
 .rightArrow {
-    display: inline;
-    top: 666px;
+    position: absolute;
+    top: 350px;
     width: 25%;  
 }
