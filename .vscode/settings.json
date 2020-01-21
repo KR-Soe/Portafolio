@@ -1,0 +1,9 @@
+{
+    "workbench.iconTheme": "simple-icons",
+    "workbench.colorTheme": "Sunset Theme",
+    "workbench.tips.enabled": false,
+    "explorer.compactFolders": false,
+    "editor.accessibilityPageSize": 4,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+}
