@@ -11,7 +11,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "npm run build",
+    "start": "sh bin/copyassets.sh & npm run build",
     "build": "webpack --mode development --watch"
   },
   "eslintConfig": {
