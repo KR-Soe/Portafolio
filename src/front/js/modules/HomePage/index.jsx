@@ -3,9 +3,10 @@ import React from 'react';
 class HomePage extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Sergio Fabian Vera Alvarez</h1>
-        <p>Site: Python + React</p>
+      <div className="container">
+        <div>
+          <h1>THE GAME</h1>
+        </div>
       </div>
     );
   };

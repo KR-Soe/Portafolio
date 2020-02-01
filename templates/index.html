@@ -1,7 +1,10 @@
 {% load static %}
 {% block js %}
   <script defer src="{% static 'js/homePage.bundle.js' %}"></script>
+  <link href="{% static 'css/base.css' %}" rel="stylesheet">
 {% endblock %}
+  
 <body>
+  {% include "common/nav.html" %}
   <div id="app"></div>
 </body>
